@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="esp"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header><img src="/images/Logo.png">
+    </header>
+
+    
+    
+    <main>
+    <section>
+        <textarea type="textarea" class="inputText" id="texto" cols="40" rows="6" placeholder= "Ingrese el texto aqui">
+
+        </textarea>
+        <h6>Solo letras minusculas y sin acentos</h6>
+        <div>
+            <button type="button" class="encriptar" onclick="btnencriptar()"><img src="images/boton-enc.png"></button>
+            <button type="button" onclick="btndecriptar()"><img src="images/btn-des.png"></button>
+            <button type="button" onclick="copiarMensaje"()><img src="images/btn-des.png"></button>
+        </div>
+    
+    </section>
+
+    <section>
+        <textarea type="textarea" class="inputText2" id="texto2" cols="18" rows="6"> </textarea>
+    </section>
+</main>
+</body>
+<script src="script.js"></script>
+<footer class="pie">
+    <div class="post-footer">
+        Realizado por Mauricio Echeverria  | mauricio.chess21@gmail.com | Alura challenge
+    </div>
+</footer>
+
+</html>
+
